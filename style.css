@@ -6,7 +6,7 @@
 }
 .nav-section{
     background-color: #F5F5F5;
-    width: 100%;
+    /* width: 100%; */
     height: 64px;
     border: 2px solid #DEDEDE;
 
@@ -99,6 +99,8 @@
 .main-box2:hover{
     color: white;
     background-color: #E3350D;
+   /* content: url("assests/main2-hover.png"); */
+    
 }
 .main-box3{
     width: 10%;
@@ -164,4 +166,148 @@
 .main-box7:hover{
     color: white;
     background-color: #1C54BA;
+}
+
+
+/* Main-content */
+.content{
+    background-image: url(./assests/content_bg.png);
+    background-size: cover;
+    /* background-color: #1C54BA; */
+    width: 75%;
+    height: 800px;
+    margin: 0px auto;
+
+    padding: 25px 0px 16px;
+    display: flex;
+}
+
+.left-content{
+    /* background-color: #4DAD5B; */
+    width: 578px;
+    height: 773px;
+    margin: 20px 40px;
+}
+.left-content-box-1{
+    background-image: url(./assests/cards-1.png);
+    background-size: cover;
+    width: 578px;
+    height: 327px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+.left-content-box-2 {
+    background-color: #EE6B2F;
+    width: 578px;
+    height: 159px;
+}
+.left-content-box-2 h3{
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    padding: 30px ;
+}
+.left-content-box-2 p{
+    color: #4B1C06;
+    margin: 8px 8px 12px 20px ;
+}
+
+.left-content-box-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 268px;
+    margin-top: 20px;
+}
+.left-content-box-bottom-1{
+    background-image: url(assests/left-content-box-bottom-1.png);
+    width: 280px;
+    height: 158px;
+}
+.left-content-box-bottom-1 h3{
+    background-color: #C7AA79;
+    position: relative;
+    width: 280px;
+    height: 76px;
+    top: 150px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    
+}
+.left-content-box-bottom-2{
+    background-image: url(assests/left-content-box-bottom-2.png);
+    width: 280px;
+    height: 158px;
+}
+.left-content-box-bottom-2 h3{
+    background-color: #30A7D7;
+    position: relative;
+    width: 280px;
+        height: 76px;
+    top: 150px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+
+}
+
+
+.right-content{
+    /* background-color: black; */
+    width: 280px;
+    height: 700px;
+}
+.right-content-box1{
+    background-image: url(./assests/right-content-box1.png);
+    background-size: cover;
+    width: 281px;
+    height: 150px;
+}
+.right-content-box2{
+    background-color: #E6BC2F;
+    color: white;
+    height: 103px;
+    padding: 20px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.right-content-box3{
+
+    display: flex;
+    margin-top: 20px;
+    background-color: #4DAD5B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.right-content-box3 img{
+width: 110px;
+}
+.right-content-box3 h4{
+font-size: 22px;
+margin-left: 10px;
+font-weight: normal;
+}
+
+
+.right-content-box4{
+    background-image: url(assests/charizard-169-en.png);
+    background-size: cover;
+    width: 280px;
+    height: 158px;
+}
+
+
+.right-content-box4 h3{
+    background-color: #313131;
+    position: relative;
+    color: white;
+    font-weight: normal;
+    font-size: 23px;
+    width: 280px;
+    height: 76px;
+    top: 150px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+
 }
