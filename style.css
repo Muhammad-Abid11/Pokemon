@@ -228,6 +228,7 @@
 .left-content-box-bottom-1 h3{
     background-color: #C7AA79;
     position: relative;
+    color: white;
     width: 280px;
     height: 76px;
     top: 150px;
@@ -243,6 +244,7 @@
 .left-content-box-bottom-2 h3{
     background-color: #30A7D7;
     position: relative;
+    color: white;
     width: 280px;
         height: 76px;
     top: 150px;
@@ -310,4 +312,92 @@ font-weight: normal;
     padding: 20px 0px 0px 0px;
     text-align: center;
 
+}
+
+
+.footer{
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 263px;
+}
+.footer-content{
+    color: white;
+    /* background-color: #4DAD5B; */
+    width: 950px;
+    /* width: 70%; */
+    height: 247px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-box1{
+    /* background-color: red; */
+    height: 233px;
+    width: 283px;
+    /* width: 30%; */
+    margin-top: 23px;
+    border-right: black 2px solid;
+
+}
+.footer-box1 li{
+    list-style: none;
+    line-height: 25px;
+}
+.footer-box1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-box2{
+    /* background-color: yellow; */
+    height: 233px;
+    margin-top: 23px;
+    width: 283px;
+    border-right: black 2px solid;
+
+}
+.footer-box2 img{
+    margin-right :20px;
+
+}
+.footer-box3{
+    /* background-color: blue; */
+    height: 233px;
+    /* width: 30%; */
+    width: 283px;
+    margin-top: 23px;
+}
+.footer-box3 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-box3 ul{
+    padding: 0px 0px 0px 0px;
+}
+.footer-box3 li{
+    list-style: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer-box3 p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Sticky profile */
+
+/* .stiky-div{
+    background-color: #4DAD5B;
+    width: 60px;
+    height: 120px;
+    position: absolute;
+    top: 20px;
+
+} */
+
+img.sticky {
+    background-color: #4DAD5B;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 20px;
 }
